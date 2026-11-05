@@ -80,6 +80,7 @@ The following documents are **sanitized public adaptations** of the project's ea
 | Non-operational demonstration | [Synthetic Task](examples/synthetic-task.md) → [Synthetic Result](examples/synthetic-result.md) |
 | Original contract | [Public Integration Contract](docs/RTS-01-integration-contract.md) |
 | Publication safety | [Publication Boundary](docs/publication-boundary.md) · [Release Manifest](docs/release-manifest.md) |
+| Public presentation | [Public Showcase Map](docs/public-showcase-map.md) |
 
 ## How to use this material
 

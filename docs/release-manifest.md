@@ -50,9 +50,13 @@ Files added in this expansion:
 
 Three proposed long-form documents (detailed historical evaluation, a learning guide and a roadmap) were held back during publication safety review; the public copy omits their unreviewed content. The repository remains `PUBLIC_CANDIDATE` and does not claim production readiness.
 
+## Public showcase map
+
+The reviewed public material is presented through `docs/public-showcase-map.md`. It maps the RTS-01 concepts and content families to public files without mirroring private branches, raw history, Runner identities, local paths, logs or artifacts.
+
 ## Synthetic contract verification
 
-The public reference runner was verified locally and by GitHub Actions Run `42053005876` at commit `831e9e28d026ba49d54783d3fa542dc0d1610d72`.
+The public reference runner was verified locally and by GitHub Actions Run `42053189781` at commit `e108488abb2e1e34202be83f48515c080b01d4e5`.
 
 The verified sequence is:
 
