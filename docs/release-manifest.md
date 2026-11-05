@@ -49,3 +49,15 @@ Files added in this expansion:
 **Scope of checks:** pre-publication content-pattern screening for typical secret-shaped strings and selected private identifier patterns was applied to each successful addition. This is a limited textual preflight check, **not** a comprehensive independent secret scanner, privacy certification, license audit or proof about all Git history. All successful additions were subsequently fetched back and checked for the same limited patterns. Do not apply the earlier initial-export zero-match audit to every future addition without a new complete scan.
 
 Three proposed long-form documents (detailed historical evaluation, a learning guide and a roadmap) were held back during publication safety review; the public copy omits their unreviewed content. The repository remains `PUBLIC_CANDIDATE` and does not claim production readiness.
+
+## Synthetic contract verification
+
+The public reference runner was verified locally and by GitHub Actions Run `42053005876` at commit `831e9e28d026ba49d54783d3fa542dc0d1610d72`.
+
+The verified sequence is:
+
+```text
+queue → claim → bounded execution → CAS writeback → remote readback
+```
+
+This is a local fixture contract. It does not prove access to a private GitHub queue, a real runner, an external model, or production E2E behavior.
