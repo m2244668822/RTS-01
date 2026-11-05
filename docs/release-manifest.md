@@ -54,6 +54,8 @@ Three proposed long-form documents (detailed historical evaluation, a learning g
 
 The reviewed public material is presented through `docs/public-showcase-map.md`. It maps the RTS-01 concepts and content families to public files without mirroring private branches, raw history, Runner identities, local paths, logs or artifacts.
 
+The Traditional Chinese public case study is a de-identified rewrite at `docs/case-study-zh-hant.md`. It is a learning document, not a private transcript or a claim that every historical agentic run passed.
+
 ## Synthetic contract verification
 
 The public reference runner was verified locally and by GitHub Actions Run `42053189781` at commit `e108488abb2e1e34202be83f48515c080b01d4e5`.

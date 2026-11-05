@@ -32,6 +32,7 @@ README
 | RTS-01 material | Public representation | Boundary |
 | --- | --- | --- |
 | Architecture and lifecycle | `docs/architecture-and-lifecycle.md` | Newly authored public explanation |
+| Case study and engineering narrative | `docs/case-study-zh-hant.md` | Traditional Chinese, de-identified rewrite |
 | Diagnostic and recovery method | `docs/diagnostic-skill.md`, `docs/troubleshooting-playbook.md` | No operational secrets or host identifiers |
 | Security and governance | `docs/security-and-governance.md`, `docs/publication-boundary.md` | Policy and evidence rules only |
 | Engineering history | `docs/project-evolution.md` | Sanitized lessons, not private commit history |
