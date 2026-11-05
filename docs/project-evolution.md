@@ -1,5 +1,7 @@
 # RTS-01｜Project Evolution & Engineering Lessons
 
+繁體中文閱讀入口：[探索歷程與工程學習](project-history-zh-hant.md)。
+
 This is a synthesized engineering narrative from earlier discussions and private test work. It deliberately excludes original transcript text, private repository links, host identities, credentials, raw logs and private commit references.
 
 ## Stage A — A task can be visible yet never execute

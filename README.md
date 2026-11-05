@@ -1,4 +1,8 @@
-# RTS-01
+# RTS-01｜智能體任務驗證系統
+
+> 一份以繁體中文導覽、英文技術識別字為主的 bounded integration contract。
+
+**中文入口：** [探索歷程與工程學習](docs/project-history-zh-hant.md) · [公開展示索引](docs/public-showcase-map.md) · [安全公開邊界](docs/publication-boundary.md)
 
 RTS-01 is a bounded integration contract for a planner, durable task queue, unattended runner, executor, and result writeback path.
 
@@ -76,6 +80,7 @@ The following documents are **sanitized public adaptations** of the project's ea
 | Troubleshooting and recovery | [Troubleshooting Playbook](docs/troubleshooting-playbook.md) |
 | Security, permissions and human review boundaries | [Security & Governance](docs/security-and-governance.md) |
 | Engineering lessons and historical decisions | [Project Evolution](docs/project-evolution.md) |
+| 繁體中文歷程與學習 | [探索歷程與工程學習](docs/project-history-zh-hant.md) |
 | Terminology | [Glossary / 術語表](docs/glossary.md) |
 | Non-operational demonstration | [Synthetic Task](examples/synthetic-task.md) → [Synthetic Result](examples/synthetic-result.md) |
 | Original contract | [Public Integration Contract](docs/RTS-01-integration-contract.md) |
