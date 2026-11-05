@@ -41,3 +41,9 @@ It must never contain a secret value, a copyable token, or an unredacted authori
 
 The contract is verified only when all required stages have evidence from the same bounded run. A partial stage remains partial; it is not promoted by inference.
 
+## Public synthetic implementation
+
+`src/rts01_contract.py` is a dependency-free reference runner. It uses a local queue and a local remote mirror to demonstrate the contract without contacting GitHub or an external model. The operation allowlist contains only `fixture.transform`; arbitrary shell commands are not accepted.
+
+The test asserts one correlation identifier across all five stages and asserts that a second CAS write is idempotent.
+

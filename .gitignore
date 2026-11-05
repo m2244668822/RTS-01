@@ -8,4 +8,6 @@ credentials.json
 secrets.json
 artifacts/
 logs/
+.rts01-synthetic-run/
+.rts01-check/
 

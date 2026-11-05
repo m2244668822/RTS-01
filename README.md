@@ -47,6 +47,17 @@ review_status
 
 See [the public integration contract](docs/RTS-01-integration-contract.md) and [the publication boundary](docs/publication-boundary.md).
 
+## Run the synthetic contract
+
+Requirements: Python 3.10 or newer. No package installation, credentials, or network access is required.
+
+```bash
+python -m unittest discover -s tests -v
+python -m src.rts01_contract --workdir .rts01-synthetic-run
+```
+
+The command creates a disposable local queue, claims one fixture task, runs the fixed `fixture.transform` operation, writes a content-addressed result twice, and reads the same result back from a local remote mirror.
+
 ## Status vocabulary
 
 `PROPOSED` → `RUNNING` → `VERIFIED` | `BLOCKED` | `FAILED`
