@@ -10,4 +10,5 @@ artifacts/
 logs/
 .rts01-synthetic-run/
 .rts01-check/
+__pycache__/
 
