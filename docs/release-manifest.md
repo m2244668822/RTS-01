@@ -30,3 +30,22 @@ This manifest records the release boundary without exposing private repository c
 
 Only the reviewed files in this repository are public. New files require the publication-boundary review before they are added.
 
+
+## Documentation expansion note (2026-11-05)
+
+After the initial five-file clean-room export, additional **newly authored public documentation** was added to explain the previously discussed architecture, diagnostic Skill, recovery method, security policy, engineering lessons, glossary and synthetic contract examples.
+
+Files added in this expansion:
+
+- `docs/architecture-and-lifecycle.md`
+- `docs/diagnostic-skill.md`
+- `docs/troubleshooting-playbook.md`
+- `docs/security-and-governance.md`
+- `docs/project-evolution.md`
+- `docs/glossary.md`
+- `examples/synthetic-task.md`
+- `examples/synthetic-result.md`
+
+**Scope of checks:** pre-publication content-pattern screening for typical secret-shaped strings and selected private identifier patterns was applied to each successful addition. This is a limited textual preflight check, **not** a comprehensive independent secret scanner, privacy certification, license audit or proof about all Git history. Remote contents are subject to a subsequent readback check. Do not apply the earlier initial-export zero-match audit to every future addition without a new complete scan.
+
+Two fuller candidate documents were held back during publication safety review; the public copy omits their unreviewed content. The repository remains `PUBLIC_CANDIDATE` and does not claim production readiness.
